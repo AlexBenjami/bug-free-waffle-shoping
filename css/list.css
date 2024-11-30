@@ -1,0 +1,102 @@
+ .header .kill{
+    position: absolute;
+    top:20px;
+    left: 200px;
+    border-left: 2px solid rgba(221, 19, 19, 0.774);
+}
+.header .kill:hover img{
+    width: 50px;
+    height: 50px;
+}
+.header .kill:active img{
+    width: 90%;
+    height: 150%;
+}
+.footer{
+    margin-top:1500px;
+}
+ .kill_list{
+    float: left;
+}
+.kill_list ul li{
+    float: left;
+}
+.kill_list ul li:hover{
+    background-color: rgba(197, 181, 181, 0.151);
+}
+.kill_list ul li a:hover{
+    font-size: 15px;
+}
+.kill_list ul li a{
+    display: block;
+    line-height: 47px;
+    text-align: center;
+    padding: 0 30px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(0, 1, 0);
+}
+.kill_con{
+    float: left;
+}
+.kill_con ul li{
+    float: left;
+}
+.kill_con ul li a:hover{
+    font-weight: 700;
+}
+.kill_con ul li:hover{
+    background-color: rgba(197, 181, 181, 0.151);
+
+}
+.kill_con ul li a{
+    display: block;
+    line-height: 47px;
+    text-align: center;
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 10px;
+    color: rgb(0, 1, 0);
+}
+.killcontain .picture{
+    width: 1200px;
+    height: 120px;
+}
+.killcontain .picture img{
+    width: 1200px;
+    height: 120px;
+} 
+.kill_bd ul{
+    position: relative;
+}
+ .kill_bd ul li{
+    float: left;
+    height:450px ;
+}
+.kill_bd ul li img{
+    width: 300px;
+    height: 400px;
+}
+.kill_bd ul li h3{
+    width: 300px;
+    height: 50px;
+    border: 2px solid rgba(30, 255, 0, 0.362);
+}
+.kill_bd ul li .a1{
+    display: block;
+    width: 300px;
+    height: 50px;
+    line-height:50px ;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.362);
+}
+.kill_bd ul li h3:hover{
+    background-color: rgba(137, 43, 226, 0.544);
+    font-size: 20px;
+}
+.kill_bd ul li h3:active{
+    background-color: rgba(246, 255, 0, 0.751);
+    font-size: 14px;
+}
